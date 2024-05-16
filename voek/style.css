@@ -1,0 +1,59 @@
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Diğer öğelerin önüne çıkmasını engellemek için */
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.anasayfadön {
+  position: absolute;
+
+  top: 2rem;
+  left: 2rem;
+  background-color: rgb(10, 10, 10);
+  border-radius: 50%;
+  padding: 0.25rem;
+  font-size: 150%;
+  cursor: pointer;
+  animation: rotation 0.75s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.navbar {
+  display: block;
+  font-size: 30px;
+  margin: 30px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.linkler a {
+  box-shadow: none;
+  color: rgb(128, 33, 104);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 20px;
+  padding: 0.2rem 2rem;
+  text-decoration: none;
+  border: px solid #c7c77afa;
+  border-radius: 100px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.linkler a:hover {
+  color: rgb(141, 165, 230);
+  background: rgb(198, 228, 218);
+}
