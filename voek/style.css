@@ -7,12 +7,12 @@ img {
   z-index: -1; /* Diğer öğelerin önüne çıkmasını engellemek için */
 }
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: rgb(182, 177, 184);
 }
 
 .anasayfadön {
   position: absolute;
-
   top: 2rem;
   left: 2rem;
   background-color: rgb(10, 10, 10);
@@ -36,17 +36,17 @@ body {
   font-size: 30px;
   margin: 30px;
   text-align: center;
-  margin-top: 3rem;
+  margin-top: rem;
 }
 
 .linkler a {
   box-shadow: none;
-  color: rgb(128, 33, 104);
+  color: rgb(64, 52, 92);
   font-weight: bold;
   font-size: 30px;
   text-transform: capitalize;
   margin: 20px;
-  padding: 0.2rem 2rem;
+  padding: 0.2rem 5rem;
   text-decoration: none;
   border: px solid #c7c77afa;
   border-radius: 100px;
@@ -54,6 +54,122 @@ body {
 }
 
 .linkler a:hover {
-  color: rgb(141, 165, 230);
-  background: rgb(198, 228, 218);
+  color: rgb(128, 65, 75);
+}
+
+.alpi {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 70px;
+  text-transform: capitalize;
+  margin-top: 10rem;
+  margin-left: 12rem;
+  position: absolute;
+  background-color: transparent;
+}
+
+.göki {
+  border: none;
+  cursor: pointer;
+  padding: 90px;
+  text-transform: capitalize;
+  margin-top:8rem;
+  border-radius: 50%;
+  margin-left: 45rem;
+  position: absolute;
+  background-color: transparent;
+}
+.köki {
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  padding: 90px;
+  border-radius: 50%;
+  text-transform: capitalize;
+  margin-left: 93rem;
+  margin-top: 4rem;
+  background-color: transparent;
+}
+.laz {
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  padding: 90px;
+  border-radius: 50%;
+  text-transform: capitalize;
+  margin-top: 28rem;
+  margin-left: 26rem;
+  background-color: transparent;
+}
+.ese {
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  padding: 90px;
+  border-radius: 50%;
+  text-transform: capitalize;
+  margin-top: 30rem;
+  margin-left: 60rem;
+  background-color: transparent;
+}
+
+.hakkımızda {
+  box-shadow: none;
+  color: rgb(64, 52, 92);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 27px;
+  margin-left: 7.4rem ;
+  padding: 0.2rem 5rem;
+  text-decoration: none;
+  border: px solid #c7c77afa;
+  border-radius: 100px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.kadimdostlar {
+  box-shadow: none;
+  color: rgb(64, 52, 92);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 27px;
+  margin-left: 7.4rem ;
+  padding: 0.2rem 5rem;
+  text-decoration: none;
+  border: px solid #c7c77afa;
+  border-radius: 100px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.mentions{
+  box-shadow: none;
+  color: rgb(64, 52, 92);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 27px;
+  margin-left: 7.4rem ;
+  padding: 0.2rem 5rem;
+  text-decoration: none;
+  border: px solid #c7c77afa;
+  border-radius: 100px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.üretim {
+  box-shadow: none;
+  color: rgb(64, 52, 92);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 27px;
+  margin-left: 7.4rem ;
+  padding: 0.2rem 5rem;
+  text-decoration: none;
+  border: px solid #c7c77afa;
+  border-radius: 100px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
